@@ -3,7 +3,7 @@
 
 #include "memory_resource.hpp"
 #include "mutex.hpp"
-#include "../BSP/bsp_utility.hpp"
+#include "bsp_utility.hpp"
 #include <cmsis_os2.h>
 #include <cstddef>
 #include <memory>

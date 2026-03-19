@@ -1,7 +1,7 @@
 #ifndef ASYNC_SEMAPHORE_HPP
 #define ASYNC_SEMAPHORE_HPP
 
-#include "../BSP/bsp_utility.hpp"
+#include "bsp_utility.hpp"
 #include <chrono>
 #include <cmsis_os2.h>
 #include <cstddef>

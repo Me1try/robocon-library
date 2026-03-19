@@ -6,7 +6,7 @@
 #include <type_traits>
 #include <utility>
 
-#include "../BSP/bsp_utility.hpp"
+#include "bsp_utility.hpp"
 
 namespace gdut {
 

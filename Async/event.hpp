@@ -5,7 +5,7 @@
 #include <cmsis_os2.h>
 #include <utility>
 
-#include "../BSP/bsp_utility.hpp"
+#include "bsp_utility.hpp"
 
 namespace gdut {
 

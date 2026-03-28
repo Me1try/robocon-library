@@ -22,8 +22,10 @@
 - 主要方法：
 
   - `void init()`：初始化 ATT/CMD/CLK 的空闲态。
-  - `bool poll()`：发送轮询命令并解析回复，返回是否状态发生变化。
+  - `bool poll()`：发送轮询命令并解析回复，返回是否状态发生变化（按钮、摇杆 lx/ly/rx/ry 或模拟模式任一改变时为 `true`）。
   - `ps2_state read_state() const`：获取最新解析的手柄状态。
+  - `void set_mode_digital()`：切换手柄至数字模式（发送进入配置、设置数字、退出配置三条指令）。
+  - `void set_mode_analog()`：切换手柄至模拟摇杆模式并锁定（发送进入配置、设置模拟带锁、退出配置三条指令）。
   - `void on_change(std::function<void(const ps2_state&)>)`：注册状态变化回调。
 
 - `pins_interface` 字段：

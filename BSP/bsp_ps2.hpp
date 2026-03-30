@@ -4,6 +4,7 @@
 #include "bsp_gpio_pin.hpp"
 #include "bsp_spi.hpp"
 #include "uncopyable.hpp"
+#include "function.hpp"
 
 #include <utility>
 #include <array>

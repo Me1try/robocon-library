@@ -7,7 +7,6 @@
 #include "function.hpp"
 
 #include <utility>
-#include <array>
 #include <cstdint>
 
 namespace gdut {
